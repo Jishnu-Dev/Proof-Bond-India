@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
+    <link rel="shortcut icon" href="pb-favicon.svg">  
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
     <!-- FontAwesome JS-->
@@ -71,11 +71,11 @@
     <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header" style="background-color: rgba(0,0,0,0.1);">
             <div class="container text-center">
-                <h2 class="title">PROOF<span class="highlight">BOND</span></h2>
+                <h2 class="title">PROOF<span class="highlight">BOND<i class="fas fa-paint-roller"></i></span></h2>
                 <p class="intro font-weight-bold">Let Us Shield Your Home! No more water leakage or Excess Temperature Worries!</p>
                 <div class="btns mb-12r">
-                    <a class="btn btn-cta-secondary" href="https://themes.3rdwavemedia.com/" target="_blank">Demo</a>
-                    <a class="btn btn-cta-primary" href="#" target="_blank">Features</a>
+                    <a class="btn btn-cta-secondary" href="#">Demo</a>
+                    <a class="btn btn-cta-primary" href="#">Features</a>
                 </div>
                 <!-- <ul class="meta list-inline">
                     <li class="list-inline-item"><a href="https://github.com/xriley/devAid-Theme" target="_blank">View on GitHub</a></li>
@@ -110,16 +110,19 @@
     <!-- ******ABOUT****** --> 
     <section id="about" class="about section">
         <div class="container">
-            <h2 class="text-center text-uppercase mb-5">What is Proof Bond?</h2>
-            <p class="intro text-center lead">Proof Bond is your ultimate solution,Eco friendly, Non polluting, Unique elastomeric polymer coating. It resists moisture, algae & fungus and provides durable,flexible & UV Resistant coating.It is developed under the most modern German technology which has revolutionized the water proofing industry in Germany, Italy, France, Scotland etc.</p>
+            <div class="text-center mb-12r">
+                <h2 class="text-uppercase mb-5">What is Proof Bond?</h2>
+                <p class="intro lead">Proof Bond is your ultimate solution,Eco friendly, Non polluting, Unique elastomeric polymer coating. It resists moisture, algae & fungus and provides durable,flexible & UV Resistant coating.It is developed under the most modern German technology which has revolutionized the water proofing industry in Germany, Italy, France, Scotland etc.</p>
+                <a class="btn btn-cta-primary" href="#">Learn More</a>
+            </div>
             <div class="row">
                 <div class="item col-lg-4 col-md-6 col-12">
                     <div class="icon-holder">
                         <i class="fas fa-heart"></i>
                     </div>
                     <div class="content">
-                        <h3 class="sub-title">Designed for developers</h3>
-                        <p>Outline a benefit here. Tell users what your plugin/software can do for them. You can change the icon above to any of the 1000+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwesome</a> icons available.</p>
+                        <h3 class="sub-title">Ideal For</h3>
+                        <p>Concrete Terrace,Interior & Exterior walls, Asbestos, Galvanized Sheets, Iron, Wood Surfaces</p>
                     </div><!--//content-->
                 </div><!--//item-->
                 <div class="item col-lg-4 col-md-6 col-12">
@@ -171,6 +174,34 @@
             </div><!--//row-->            
         </div><!--//container-->
     </section><!--//about-->
+
+    <script>
+        // Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: -25.344, lng: 131.036 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+    </script>
+
+    <section>
+        <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+      async
+    ></script>
+    </section>
     
     <!-- ******FEATURES****** --> 
     <section id="features" class="features section">
@@ -326,7 +357,7 @@
     <footer class="footer">
         <div class="container text-center">
             <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by Jishnu Raj</small>
         </div><!--//container-->
     </footer><!--//footer-->
      
@@ -337,8 +368,6 @@
     <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
     <script type="text/javascript" src="assets/js/main.js"></script>  
-    
-        
 </body>
 </html> 
 

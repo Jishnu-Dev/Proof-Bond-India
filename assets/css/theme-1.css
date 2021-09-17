@@ -306,7 +306,7 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #FFF;
 }
 
 .about .title {
@@ -381,7 +381,7 @@ pre code {
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #FFF;
 }
 
 .docs .title {
@@ -427,7 +427,7 @@ pre code {
 /* ======= License Section ======= */
 .license {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #FFF;
 }
 
 .license .title {
@@ -745,4 +745,11 @@ pre code {
   .contact .social-icons a .svg-inline--fa {
     margin-top: 7px;
   }
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }

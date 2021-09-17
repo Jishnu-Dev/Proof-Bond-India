@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eebf3f;
+      }
+
+      .cls-2 {
+        font-size: 16.667px;
+        fill: #005792;
+        text-anchor: middle;
+        font-family: Montserrat;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="16" cy="16" r="16"/>
+  <text id="PB" class="cls-2" x="16.167" y="21.392"><tspan x="16.167">PB</tspan></text>
+</svg>
