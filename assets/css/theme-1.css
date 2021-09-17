@@ -18,11 +18,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #17baef;
+  color: #005792;
 }
 
 a {
-  color: #17baef;
+  color: #005792;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -43,6 +43,29 @@ a:hover {
   padding: 8px 16px;
   font-weight: bold;
 }
+
+/* Spacers */
+.mb-2r { margin-bottom: 2rem; }
+.mb-4r { margin-bottom: 4rem; }
+.mb-6r { margin-bottom: 6rem; }
+.mb-8r { margin-bottom: 8rem; }
+.mb-12r { margin-bottom: 12rem; }
+.my-2r { margin-top: 2rem; margin-bottom: 2rem; }
+.my-4r { margin-top: 4rem; margin-bottom: 4rem; }
+.my-6r { margin-top: 6rem; margin-bottom: 6rem; }
+.my-8r { margin-top: 8rem; margin-bottom: 8rem; }
+.my-12r { margin-top: 12rem; margin-bottom: 12rem; }
+
+.pb-2r { padding-bottom: 2rem; }
+.pb-4r { padding-bottom: 4rem; }
+.pb-6r { padding-bottom: 6rem; }
+.pb-8r { padding-bottom: 8rem; }
+.pb-12r { padding-bottom: 12rem; }
+.py-2r { padding-top: 2rem; padding-bottom: 2rem; }
+.py-4r { padding-top: 4rem; padding-bottom: 4rem; }
+.py-4r { padding-top: 6rem; padding-bottom: 6rem; }
+.py-8r { padding-top: 8rem; padding-bottom: 8rem; }
+.py-12r { padding-top: 12rem; padding-bottom: 12rem; }
 
 .btn .svg-inline--fa, a.btn .svg-inline--fa {
   margin-right: 5px;
@@ -78,8 +101,8 @@ a.btn-cta-secondary, .btn-cta-secondary {
 }
 
 a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
-  background: #ecb728;
-  border: 1px solid #ecb728;
+  background: #FFC947;
+  border: 1px solid #FFC947;
   color: #fff;
 }
 
@@ -113,7 +136,7 @@ pre code {
 }
 
 .header.navbar-fixed-top .logo a {
-  color: #17baef;
+  color: #005792;
 }
 
 .header .logo {
@@ -181,7 +204,7 @@ pre code {
 }
 
 .header .main-nav .nav .nav-item .nav-link {
-  color: #09617e;
+  color: #eebf3f;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -191,12 +214,12 @@ pre code {
 }
 
 .header .main-nav .nav .nav-item .nav-link.active {
-  color: #17baef;
+  color: #eebf3f;
   background: none;
 }
 
 .header .main-nav .nav .nav-item .nav-link:hover {
-  color: #074f66;
+  color: #eebf3f;
   background: none;
 }
 
@@ -216,7 +239,7 @@ pre code {
 
 /* ======= Promo Section ======= */
 .promo {
-  /* background: #17baef; */
+  /* background: #005792; */
   background:url("../images/home-hero-banner.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
@@ -225,7 +248,7 @@ pre code {
 
 .promo .title {
   font-size: 98px;
-  color: #074f66;
+  color: #005792;
   margin-top: 0;
 }
 
@@ -265,7 +288,7 @@ pre code {
 }
 
 .promo .social-media {
-  background: #0c86ae;
+  background: #005792;
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -327,7 +350,7 @@ pre code {
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
-  background: #17baef;
+  background: #005792;
   color: #fff;
 }
 
@@ -492,7 +515,7 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: #17baef;
+  background: #005792;
   color: #fff;
 }
 
