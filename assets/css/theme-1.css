@@ -24,8 +24,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
   color: var(--primary);
+  font-weight: 700;
+  word-break: break-word;
 }
 
 a {
@@ -79,10 +80,6 @@ a:hover {
 .py-8r { padding-top: 8rem; padding-bottom: 8rem; }
 .py-12r { padding-top: 12rem; padding-bottom: 12rem; }
 
-.color-primary {
-  color: #1B55E3;
-}
-
 .btn .svg-inline--fa, a.btn .svg-inline--fa {
   margin-right: 5px;
 }
@@ -109,8 +106,8 @@ a.btn-cta-primary:hover, .btn-cta-primary:hover {
 }
 
 a.btn-cta-secondary, .btn-cta-secondary {
-  background: #eebf3f;
-  border: 1px solid #eebf3f;
+  background: var(--secondry);
+  border: 1px solid var(--secondry);
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -136,7 +133,7 @@ pre code {
 
 /* ======= Header ======= */
 .header {
-  background: #1B55E3;
+  background: var(--primary);
   color: #fff;
   position: fixed;
   z-index: 999;
@@ -152,7 +149,7 @@ pre code {
 }
 
 .header.navbar-fixed-top .logo a {
-  color: #1B55E3;
+  color: var(--primary);
 }
 
 .header .logo {
@@ -220,7 +217,7 @@ pre code {
 }
 
 .header .main-nav .nav .nav-item .nav-link {
-  color: #eebf3f;
+  color: var(--secondry);
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -230,12 +227,12 @@ pre code {
 }
 
 .header .main-nav .nav .nav-item .nav-link.active {
-  color: #eebf3f;
+  color: var(--secondry);
   background: none;
 }
 
 .header .main-nav .nav .nav-item .nav-link:hover {
-  color: #eebf3f;
+  color: var(--secondry);
   background: none;
 }
 
@@ -255,7 +252,6 @@ pre code {
 
 /* ======= Promo Section ======= */
 .promo {
-  /* background: #005792; */
   background:url("../images/home-hero-banner.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
@@ -265,12 +261,12 @@ pre code {
 
 .promo .title {
   font-size: 98px;
-  color: rgba(27, 85, 227, 1);
+  color: var(--primary);
   margin-top: 0;
 }
 
 .promo .title .highlight {
-  color: #eebf3f;
+  color: var(--secondry);
 }
 
 .promo .intro {
@@ -305,9 +301,11 @@ pre code {
 }
 
 .promo .social-media {
-  background: #1B55E3;
+  background: var(--primary);
   padding: 10px 0;
   margin: 0 auto;
+  position: relative;
+  z-index: 17;
 }
 
 .promo .social-media li {
@@ -371,7 +369,7 @@ pre code {
 /* ======= Features Section ======= */
 .features {
   padding: 20px 0;
-  background: #005792;
+  background: var(--primary);
   color: #fff;
 }
 
@@ -536,7 +534,7 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: #005792;
+  background: var(--primary);
   color: #fff;
 }
 
@@ -780,8 +778,34 @@ pre code {
   object-fit: cover;
 }
 
+/* Hero Banner section */
 .announcement-bar-inner {
   max-width: 70vw;
   margin-left: auto;
   margin-right: auto;
+}
+.hero-carousel {
+  height: 600px;
+}
+.hero-img {
+  width: 100%;
+  height: 600px; 
+  object-fit: cover;
+}
+.hero-text {
+  bottom: 25%;
+}
+.hero-lead {
+  font-size: 2rem;
+}
+#overlay {
+  position: absolute; 
+  width: 100%; 
+  height: 690px; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.1);
+  z-index: 5;
 }
