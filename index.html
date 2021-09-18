@@ -25,8 +25,6 @@
 
 <body data-spy="scroll">
 	
-   
-
     <!---//Facebook button code-->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -42,7 +40,7 @@
         <div class="container">            
             <h1 class="logo float-left">
                 <a class="scrollto" href="#promo">
-                    <span class="logo-title">PROOF BOND INDIA</span>
+                    <span class="logo-title">PROOF BOND</span>
                 </a>
             </h1><!--//logo-->              
             <nav id="main-nav" class="main-nav navbar-expand-md float-right" role="navigation">
@@ -175,49 +173,101 @@
         </div><!--//container-->
     </section><!--//about-->
 
-    <script>
-        // Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -25.344, lng: 131.036 };
-  // The map, centered at Uluru
-  const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: uluru,
-  });
-  // The marker, positioned at Uluru
-  const marker = new google.maps.Marker({
-    position: uluru,
-    map: map,
-  });
-}
-    </script>
-
-    <section>
-        <div id="map"></div>
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
-      async
-    ></script>
+    <section class="container mb-12r">
+        <div class="card-deck mb-5">
+            <div class="card">
+            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
+            <div class="card-body">
+                <h5 class="card-title">Proof Bond India</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
+            <div class="card-body">
+                <h5 class="card-title">Proof Bond India</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
+            <div class="card-body">
+                <h5 class="card-title">Proof Bond India</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+        </div>
+        <div class="card-deck mb-5">
+            <div class="card">
+            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
+            <div class="card-body">
+                <h5 class="card-title">Proof Bond India</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
+            <div class="card-body">
+                <h5 class="card-title">Proof Bond India</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
+            <div class="card-body">
+                <h5 class="card-title">Proof Bond India</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+        </div>
     </section>
-    
-    <!-- ******FEATURES****** --> 
-    <section id="features" class="features section">
-        <div class="container text-center">
-            <h2 class="title">Features</h2>
-            <ul class="feature-list list-unstyled">
-                <li><i class="fas fa-check"></i> Fully responsive</li>
-                <li><i class="fas fa-check"></i> HTML5 + CSS3</li>
-                <li><i class="fas fa-check"></i> Built on Bootstrap 4</li>
-                <li><i class="fas fa-check"></i> SCSS source files included</li>
-                <li><i class="fas fa-check"></i> 1000+ FontAwesome 5 icons</li>
-                <li><i class="fas fa-check"></i> 4 colour schemes</li>
-                <li><i class="fas fa-check"></i> Compatible with all modern browsers</li>
-            </ul>
+
+        <!-- ******FEATURES****** --> 
+        <section id="features" class="features section mb-4">
+            <div class="container text-center">
+                <h2 class="text-yellow mb-0">Where We Located at</h2>
+            </div>
+        </section>
+    <!-- Begins Google Map -->
+    <section>
+        <style>
+            .mapouter{ position:relative; text-align:right; width:100%; height:500px;}
+            .gmap_canvas{ overflow:hidden; background:none!important; width:100%;height:500px;}
+            .gmap_iframe{ height:500px !important;}
+            </style>
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1977&amp;height=369&amp;hl=en&amp;q=kochi&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                <a href="https://www.fnfgo.com/">FNF</a>
+            </div>
+        </div>
+    </section>
+    <!-- Ends Google Map -->
+
+
+    <section id="contact" class="contact section has-pattern mt-8r">
+        <div class="container">
+            <div class="contact-inner">
+                <h2 class="title  text-center">Contact</h2>
+                <p class="intro  text-center">I hope you find this Bootstrap template useful. <br />Feel free to get in touch if you have any questions or suggestions.</p>
+                <div class="author-message">                      
+                    <div class="profile">
+                        <img class="img-fluid" src="assets/images/profile.png" alt="" />
+                    </div><!--//profile-->
+                    <div class="speech-bubble">
+                        <h3 class="sub-title">Love free Bootstrap themes and templates?</h3>
+                        <p><a href="https://twitter.com/3rdwave_themes" target="_blank">Follow me on Twitter</a> so you don’t miss any future freebies! You can find all the freebies I made for developers <a href="https://themes.3rdwavemedia.com/bootstrap-templates/free/" target="_blank">here</a>.</p>
+                        <p><strong>[Tip for developers]:</strong> If you take on freelance work you can put a tailored message here about your availability to attract potential clients. Be creative and good luck! :)</p> 
+                        <div class="source">
+                            <span class="name"><a href="https://twitter.com/3rdwave_themes" target="_blank">Xiaoying Riley</a></span>
+                            <br />
+                            <span class="title">UX/UI Designer</span>
+                        </div><!--//source-->
+                    </div><!--//speech-bubble-->                        
+                </div><!--//author-message-->
+            </div><!--//contact-inner-->
         </div><!--//container-->
-    </section><!--//features-->
+    </section><!--//contact--> 
     
     <!-- ******DOCS****** --> 
     <section id="docs" class="docs section">

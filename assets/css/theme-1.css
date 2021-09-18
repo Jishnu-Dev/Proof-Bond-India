@@ -18,7 +18,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #005792;
+  color: rgba(27, 85, 227, 1);
 }
 
 a {
@@ -50,6 +50,11 @@ a:hover {
 .mb-6r { margin-bottom: 6rem; }
 .mb-8r { margin-bottom: 8rem; }
 .mb-12r { margin-bottom: 12rem; }
+.mt-2r { margin-top: 2rem; }
+.mt-4r { margin-top: 4rem; }
+.mt-6r { margin-top: 6rem; }
+.mt-8r { margin-top: 8rem; }
+.mt-12r { margin-top: 12rem; }
 .my-2r { margin-top: 2rem; margin-bottom: 2rem; }
 .my-4r { margin-top: 4rem; margin-bottom: 4rem; }
 .my-6r { margin-top: 6rem; margin-bottom: 6rem; }
@@ -121,7 +126,7 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: #005792;
+  background: rgba(27, 85, 227, 1);
   color: #fff;
   position: fixed;
   width: 100%;
@@ -136,7 +141,7 @@ pre code {
 }
 
 .header.navbar-fixed-top .logo a {
-  color: #005792;
+  color: rgba(27, 85, 227, 1);
 }
 
 .header .logo {
@@ -248,7 +253,7 @@ pre code {
 
 .promo .title {
   font-size: 98px;
-  color: #005792;
+  color: rgba(27, 85, 227, 1);
   margin-top: 0;
 }
 
@@ -288,7 +293,7 @@ pre code {
 }
 
 .promo .social-media {
-  background: #005792;
+  background: rgba(27, 85, 227, 1);
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -347,9 +352,13 @@ pre code {
   font-size: 18px;
 }
 
+.text-yellow {
+  color: #eebf3f !important;
+}
+
 /* ======= Features Section ======= */
 .features {
-  padding: 80px 0;
+  padding: 20px 0;
   background: #005792;
   color: #fff;
 }
@@ -752,4 +761,9 @@ pre code {
   /* The height is 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
+}
+
+.h-300-image {
+  height: 300px; 
+  object-fit: cover;
 }
