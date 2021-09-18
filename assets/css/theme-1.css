@@ -6,6 +6,13 @@
  * Twitter: @3rdwave_themes
  * Website: https://themes.3rdwavemedia.com/
 */
+
+/* Root Variables */
+:root {
+  --primary: #1B55E3;
+  --secondry: #eebf3f;
+}
+
 /* ======= Base ======= */
 body {
   font-family: 'Lato', arial, sans-serif;
@@ -18,11 +25,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: rgba(27, 85, 227, 1);
+  color: var(--primary);
 }
 
 a {
-  color: #005792;
+  color: var(--primary);
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -72,6 +79,10 @@ a:hover {
 .py-8r { padding-top: 8rem; padding-bottom: 8rem; }
 .py-12r { padding-top: 12rem; padding-bottom: 12rem; }
 
+.color-primary {
+  color: #1B55E3;
+}
+
 .btn .svg-inline--fa, a.btn .svg-inline--fa {
   margin-right: 5px;
 }
@@ -112,7 +123,7 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
 }
 
 .text-highlight {
-  color: #074f66;
+  color: var(--primary);
 }
 
 .offset-header {
@@ -125,23 +136,23 @@ pre code {
 
 /* ======= Header ======= */
 .header {
-  padding: 10px 0;
-  background: rgba(27, 85, 227, 1);
+  background: #1B55E3;
   color: #fff;
   position: fixed;
+  z-index: 999;
   width: 100%;
 }
 
 .header.navbar-fixed-top {
   background: #fff;
-  z-index: 9999;
+  z-index: 100;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
 .header.navbar-fixed-top .logo a {
-  color: rgba(27, 85, 227, 1);
+  color: #1B55E3;
 }
 
 .header .logo {
@@ -248,7 +259,8 @@ pre code {
   background:url("../images/home-hero-banner.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
-  padding-top: 150px;
+  /* padding-top: 150px; */
+  padding-top: 0;
 }
 
 .promo .title {
@@ -293,7 +305,7 @@ pre code {
 }
 
 .promo .social-media {
-  background: rgba(27, 85, 227, 1);
+  background: #1B55E3;
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -766,4 +778,10 @@ pre code {
 .h-300-image {
   height: 300px; 
   object-fit: cover;
+}
+
+.announcement-bar-inner {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
 }

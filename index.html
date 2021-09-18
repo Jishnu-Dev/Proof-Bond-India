@@ -26,18 +26,28 @@
 <body data-spy="scroll">
 	
     <!---//Facebook button code-->
-    <div id="fb-root"></div>
+    <!-- <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));</script> -->
+    
+    
+    <!-- Announcement Bar -->
+    <div class="bg-light sticky-top">
+    <nav class="navbar bg-light container">
+        <small>Call to estimate for free: <span class="color-primary font-weight-bold"></span>+91 484 233 7344</span></small>
+        <small>Mon - Sat (8am - 7pm) Sunday CLOSED</small>
+    </nav>
+    </div>
+    <!-- End Announcement Bar -->
     
     <!-- ******HEADER****** --> 
-    <header id="header" class="header">  
-        <div class="container">            
+    <header id="header" class="header py-1">
+        <div class="container">      
             <h1 class="logo float-left">
                 <a class="scrollto" href="#promo">
                     <span class="logo-title">PROOF BOND</span>
@@ -68,44 +78,62 @@
     
     <!-- ******PROMO****** -->
     <section id="promo" class="promo section offset-header" style="background-color: rgba(0,0,0,0.1);">
-            <div class="container text-center">
-                <h2 class="title">PROOF<span class="highlight">BOND<i class="fas fa-paint-roller"></i></span></h2>
-                <p class="intro font-weight-bold">Let Us Shield Your Home! No more water leakage or Excess Temperature Worries!</p>
-                <div class="btns mb-12r">
-                    <a class="btn btn-cta-secondary" href="#">Demo</a>
-                    <a class="btn btn-cta-primary" href="#">Features</a>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 600px;">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" style="height: 600px;">
+                <div class="carousel-item active" style="height: 600px;">
+                    <img src="assets/images/home-hero-banner.jpg" alt="..." style="width: 100%; height: 600px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block" style="bottom: 25%;">
+                      <h1 class="title">Proof Bond India</h1>
+                      <p>Long lasting Coating</p>
+                    </div>
+                  </div>
+              <div class="carousel-item" style="height: 600px;">
+                <img src="assets/images/home-hero-banner.jpg" alt="..." style="width: 100%; height: 600px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block" style="bottom: 25%;">
+                  <h1 class="title">Proof Bond India</h1>
+                  <p>Long lasting Coating</p>
                 </div>
-                <!-- <ul class="meta list-inline">
-                    <li class="list-inline-item"><a href="https://github.com/xriley/devAid-Theme" target="_blank">View on GitHub</a></li>
-                    <li class="list-inline-item"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devaid-free-bootstrap-theme-for-developers-side-projects/" target="_blank">Full Documentation</a></li>
-                    <li class="list-inline-item">Created by: <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> at 3rd Wave Media</li>
-                </ul> -->
-            </div><!--//container-->
-        <div class="social-media">
-            <div class="social-media-inner container text-center">
-                <h4 class="text-white my-2">Call Now : +91 484 2337344</h4>
-                <!-- <ul class="list-inline mb-2">
-                    <li class="list-inline-item twitter-follow"><a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button" data-show-count="false">Follow @3rdwave_themes</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    </li>
-                    <li class="list-inline-item twitter-tweet">
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="3rdwave_themes" data-hashtags="bootstrap">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    </li>
-                    <li class="list-inline-item facebook-like">
-                         <div class="fb-like" data-href="https://themes.3rdwavemedia.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-                    </li>
-        
-                    <li class="list-inline-item github-star">
-                    <a class="github-button" href="https://github.com/xriley/devaid-theme" data-icon="octicon-star" aria-label="Star xriley/devaid-theme on GitHub">Star</a></li>
-                    <li class="list-inline-item github-follow">
-                    <a class="github-button" href="https://github.com/xriley" aria-label="Follow @xriley on GitHub">Follow @xriley</a></li>                   
-                </ul> -->
+              </div>
+              <div class="carousel-item" style="height: 600px;">
+                <img src="assets/images/home-hero-banner.jpg" alt="..." style="width: 100%; height: 600px; object-fit: cover;">
+                <div class="carousel-caption d-none d-md-block" style="bottom: 25%;">
+                  <h1 class="title">Proof Bond India</h1>
+                  <p>Long lasting Coating</p>
+                </div>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
         </div>
-    </section><!--//promo-->
+
+        <!-- <div class="container text-center">
+            <h2 class="title">PROOF<span class="highlight">BOND<i class="fas fa-paint-roller"></i></span></h2>
+            <p class="intro font-weight-bold">Let Us Shield Your Home! No more water leakage or Excess Temperature Worries!</p>
+            <div class="btns mb-12r">
+                <a class="btn btn-cta-secondary" href="#">Demo</a>
+                <a class="btn btn-cta-primary" href="#">Features</a>
+            </div>
+        </div> -->
+        <div class="social-media">
+        <div class="social-media-inner container text-center">
+            <h6 class="text-white text-uppercase my-2">Eco friendly, Non polluting, Unique elastomeric polymer</h6>
+        </div>
+        </div>
+    </section>
     
-    <!-- ******ABOUT****** --> 
+    <!-- ******Intro****** --> 
     <section id="about" class="about section">
         <div class="container">
             <div class="text-center mb-12r">
@@ -171,32 +199,11 @@
                 </div><!--//item-->               
             </div><!--//row-->            
         </div><!--//container-->
-    </section><!--//about-->
+    </section>
+
+
 
     <section class="container mb-12r">
-        <div class="card-deck mb-5">
-            <div class="card">
-            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
-            <div class="card-body">
-                <h5 class="card-title">Proof Bond India</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            </div>
-            <div class="card">
-            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
-            <div class="card-body">
-                <h5 class="card-title">Proof Bond India</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            </div>
-            <div class="card">
-            <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
-            <div class="card-body">
-                <h5 class="card-title">Proof Bond India</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            </div>
-        </div>
         <div class="card-deck mb-5">
             <div class="card">
             <img class="card-img-top h-300-image" src="assets/images/pb-img1.jpg" alt="proof bond india">
@@ -229,7 +236,7 @@
             </div>
         </section>
     <!-- Begins Google Map -->
-    <section>
+    <!-- <section>
         <style>
             .mapouter{ position:relative; text-align:right; width:100%; height:500px;}
             .gmap_canvas{ overflow:hidden; background:none!important; width:100%;height:500px;}
@@ -241,7 +248,7 @@
                 <a href="https://www.fnfgo.com/">FNF</a>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Ends Google Map -->
 
 
