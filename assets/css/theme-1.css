@@ -34,10 +34,16 @@ h1, h2, h3 {
 }
 
 .text-primary {
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 .text-yellow {
   color: var(--secondry);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-yellow {
+  background-color: var(--secondry);
 }
 
 a {
