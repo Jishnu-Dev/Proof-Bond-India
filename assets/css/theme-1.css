@@ -10,7 +10,7 @@
 /* Root Variables */
 :root {
   --primary: #1B55E3;
-  --secondry: #eebf3f;
+  --secondry: #FFC107;
 }
 
 /* ======= Base ======= */
@@ -27,6 +27,17 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary);
   font-weight: 700;
   word-break: break-word;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+.text-yellow {
+  color: var(--secondry);
 }
 
 a {
@@ -362,10 +373,6 @@ pre code {
   font-size: 18px;
 }
 
-.text-yellow {
-  color: #eebf3f !important;
-}
-
 /* ======= Features Section ======= */
 .features {
   padding: 20px 0;
@@ -533,7 +540,7 @@ pre code {
 
 /* ======= Contact Section ======= */
 .contact {
-  padding: 80px 0;
+  padding: 40px 0 80px;
   background: var(--primary);
   color: #fff;
 }
