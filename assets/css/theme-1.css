@@ -265,7 +265,7 @@ pre code {
 
 /* ======= Promo Section ======= */
 .promo {
-  background:url("../images/home-hero-banner.jpg") no-repeat center center;
+  background:url("../images/img-1.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
   /* padding-top: 150px; */
@@ -332,11 +332,6 @@ pre code {
 }
 
 /* ======= About Section ======= */
-.about {
-  padding: 80px 0;
-  background: #FFF;
-}
-
 .about .title {
   color: #074f66;
   margin-top: 0;
@@ -815,7 +810,7 @@ pre code {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.1);
+  /* background-color: rgba(0,0,0,0.1); */
   z-index: 5;
 }
 
@@ -957,3 +952,23 @@ width: 100%;
   background-color: #269aff;
 }
 /* End Pricing plan section */
+
+/* Lead section */
+.medium-img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.lead-icons {
+  font-size: 2.5em;
+}
+
+.bg-banner {
+  /* background-image: url(/assets/images/home-hero-banner.jpg); */
+  background: linear-gradient(to right, rgba(15, 28, 39, 0.6), rgba(15, 28, 39, 0.6)), url(https://damsure.in/frontend/img/confi-bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 60px 0;
+  height: 700px;
+}
